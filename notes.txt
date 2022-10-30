@@ -1,0 +1,24 @@
+python3 -m venv ./
+
+pip install flask
+pip install requests
+
+@app.route("/")
+@ is python decorator
+
+python3 flasktest.py
+
+load webpage
+http://192.168.189.94:8080
+
+mkdir meme_flask
+touch meme_flask.py
+
+from flask import Flask, render_template
+
+render_template function allows us to reference and use an external html code or script
+
+mkdir templates
+touch meme_index.html
+
+
